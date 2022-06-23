@@ -1,7 +1,7 @@
 <?php
-define('SERVIDOR', 'localhost');
-define('USUARIO', 'root');
-define('SENHA', '');
+define('SERVIDOR', 'SERVER');
+define('USUARIO', 'USER');
+define('SENHA', 'SENHA');
 define('BANCO', 'vendas');
 $conexao = mysqli_connect(SERVIDOR, USUARIO, SENHA, BANCO);
 mysqli_query($conexao, "SET lc_time_names = 'pt_BR'");
