@@ -1,5 +1,6 @@
 <?php
 include '../includes/config.php';
+include '../includes/funcoes.php';
 $id = isset($_GET['id']) ? $_GET['id'] : null;
 if(isset($_POST) && isset($_POST['nome_produto']) && isset($_POST['valor'])) {
 	$nome_produto = isset($_POST['nome_produto']) ? $_POST['nome_produto'] : null;
